@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: RichardZ
+subtitle: '记录与思考'
+description: 'RichardZ 的个人博客'
 keywords:
-author: John Doe
+author: RichardZ
 language: zh-CN
 timezone: 'Asia/Hong_Kong'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wsngg.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,3 +102,9 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# RSS 订阅 / Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
